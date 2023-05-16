@@ -1,0 +1,203 @@
+body{
+    background-color: rgb(185, 226, 236);
+    font-family: 'Arial', serif;
+    user-select: none;
+}
+#nav {
+    position: absolute;
+    left: 18%;
+    border: black solid 1px;
+
+}
+button{
+    width: 100px;
+}
+#zInfo{
+    display: none;
+}
+#pInfo{
+    display: none;
+}
+#plan{
+    display: none;
+}
+#sal{
+    display: none;
+}
+#rozhlas{
+    display: none;
+    height: 430px;
+}
+#uvod{
+    display: none;
+}
+#kontakty{
+    display: none;
+}
+#fotky{
+    display: none;
+}
+
+#zahlavi{
+    width: 100%;
+    height: 200px;
+}
+li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 auto;
+    padding: 0.5em;
+    text-align: center;
+    cursor: pointer;
+}
+
+li button{
+    text-decoration: none;
+    color: black;
+    border: solid black 1px;
+    text-align: center;
+    border-radius: 5%;
+    padding: 0.5em;
+    transition: 0.5s;
+    background-color: beige;
+}
+@media all and (max-width:50%){
+    li button{
+        display:block;
+        margin:0.4em auto;
+    }
+}
+ li button:hover{
+    color:black;
+    background-color: rgb(250, 183, 200);
+    border-radius: 25%;
+    transition: 0.5s;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border: solid black 1px;
+    padding: 0.5em;
+}
+a:hover{
+    color:white;
+    background-color: rgb(201, 157, 195);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+#mapa  {
+    margin:0 auto;
+   
+}
+
+#gay {
+    padding-left:1%;
+    padding-top:0.5%;
+    margin-left: 22%;
+    width:50%;
+    background: white;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    border-radius: 1%;
+}
+#rozhlasek{
+    width: 50%;
+    margin-left: 40%;
+}
+#uzemi{
+    width: 40%;
+}
+#balls{
+    top:20%;
+}
+#salek{
+    width: 98%;
+}
+#fotky  {
+    height: 300px;
+    text-align: center;
+}
+#fotky a{
+    border: none;
+}
+#fotky a:hover{
+    color:white;
+    background-color: rgb(18, 1, 252);
+    border-radius: 0%;
+    transition: 0.5s;
+}
+#aktuality{
+    border: solid black 1px;
+    padding: 1em;
+    margin: 1em;
+}
+#aktuality a{
+    border: none;
+}
+#aktuality a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 0%;
+}
+
+.sidebar {
+    margin-top: 15%;
+    margin-left: 10%;
+    padding: 0;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    background-color: rgb(228, 244, 248);
+    text-decoration: none;
+  }
+  .sidebar a:hover{
+    border-radius: 0%;
+  }
+  
+  .sidebarTwo {
+    margin-left: 74%;
+    margin-top: 15%;
+    width: 20%;
+    padding: 0;
+    position: fixed;
+    height: 100%;
+  }
+  .sidebarTwo img{
+    width: 150px;
+  }
+  .sidebarTwo a {
+    display: block;
+    color: black;
+    border: none;
+    background-color:  rgb(185, 226, 236);
+    padding: 16px;
+    text-decoration: none;
+  }
+  .sidebarTwo a:hover{
+    border-radius: 0%;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #nav{
+        width: 50%;
+        margin-left: 4.5%;
+    }
+    .sidebar{
+        width: 20%;
+        margin-left: 0%;
+        margin-top: 50%;
+    }
+}
+
+  @media screen and (max-width: 1000px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
